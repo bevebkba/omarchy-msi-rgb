@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.bevebkba.msi-rgb",
+  "name": "MSI RGB",
+  "version": "1.0.0",
+  "author": "bevebkba",
+  "license": "MIT",
+  "description": "Control MSI GE66 Raider keyboard and Aurora light-bar presets from the Omarchy bar using msi-rgb.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "MSI RGB",
+    "category": "Hardware",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
